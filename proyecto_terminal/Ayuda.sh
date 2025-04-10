@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Comandos disponibles:"
+echo "  ayuda      - Muestra esta ayuda"
+echo "  infosis    - Muestra info del sistema"
+echo "  fecha      - Muestra fecha y hora"
+echo "  buscar     - Busca un archivo"
+echo "  creditos   - Muestra los créditos"
+echo "  jugar      - Juega ahorcado o gato"
+echo "  musica     - Abre el reproductor de música"
+echo "  salir      - Salir de la terminal personalizada"
