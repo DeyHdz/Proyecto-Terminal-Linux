@@ -14,12 +14,12 @@ while true; do
 
     case $input in
         ayuda)
-            ./Ayuda.sh
+            ./ayuda.sh
             ;;
         infosis)
             ./Infosis.sh
             ;;
-        fecha)
+        tiempo)
     	    ./FechaHora.sh
 
             ;;
