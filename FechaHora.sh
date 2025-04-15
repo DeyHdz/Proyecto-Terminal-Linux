@@ -1,11 +1,25 @@
 #!/bin/bash
+clear
+# Colores
+M='\033[1;35m'  # Magenta
+C='\033[1;36m'  # Cian
+G='\033[1;32m'  # Verde
+R='\033[1;31m'  # Rojo
+W='\033[0m'     # Reset
 
-# Obtener fecha desde /proc/rtc
-fecha=$(cat /proc/driver/rtc | grep rtc_date | awk '{print $3}' | awk -F- '{print $3"/"$2"/"$1}')
-hora=$(cat /proc/driver/rtc | grep rtc_time | awk '{print $3}')
+echo -e "${M}"
+printf "\t\t▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖▗▖  ▗▖▗▄▄▖  ▗▄▖ \n"
+printf "\t\t  █    █  ▐▌   ▐▛▚▞▜▌▐▌ ▐▌▐▌ ▐▌\n"
+printf "\t\t  █    █  ▐▛▀▀▘▐▌  ▐▌▐▛▀▘ ▐▌ ▐▌\n"
+printf "\t\t  █  ▗▄█▄▖▐▙▄▄▖▐▌  ▐▌▐▌   ▝▚▄▞▘\n"
 
-    echo "=============================="
-    echo "        Fecha y Hora"
-    echo "=============================="
-    echo "📅 Fecha actual: $fecha"
-    echo "⏰ Hora actual:  $hora"
+
+    # Obtener fecha y hora desde /proc/driver/rtc
+    fecha=$(cat /proc/driver/rtc | grep rtc_date | awk '{print $3}')
+    hora=$(cat /proc/driver/rtc | grep rtc_time | awk '{print $3}')
+
+    echo -e "${C}\n\t\t=============================="
+    echo -e "\t\t         Fecha y Hora"
+    echo -e "\t\t=============================="
+    echo -e "${M}\t\t Fecha actual:${W} $fecha"
+    echo -e "${M}\t\t Hora actual: ${W} $hora"
