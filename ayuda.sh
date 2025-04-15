@@ -1,21 +1,9 @@
 #!/bin/bash
 clear
 # Colores estándar
-R='\033[1;31m'   # Rojo brillante
-G='\033[1;32m'   # Verde brillante
-Y='\033[1;33m'   # Amarillo brillante
-B='\033[1;34m'   # Azul brillante
 M='\033[1;35m'   # Magenta brillante
 C='\033[1;36m'   # Cian brillante
 W='\033[1;37m'   # Blanco brillante (gris claro)
-
-# Colores oscuros
-R0='\033[0;31m'  # Rojo
-G0='\033[0;32m'  # Verde
-Y0='\033[0;33m'  # Amarillo
-B0='\033[0;34m'  # Azul
-M0='\033[0;35m'  # Magenta
-C0='\033[0;36m'  # Cian
 
 echo -e "${M}"
 	printf "\t\t ▗▄▖▗▖  ▗▖▗▖ ▗▖▗▄▄▄   ▗▄▖ \n"
