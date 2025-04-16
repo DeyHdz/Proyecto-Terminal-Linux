@@ -1,8 +1,6 @@
 #!/bin/bash
 
 clear
-
-
 # Colores estándar
 R='\033[1;31m'   # Rojo brillante
 G='\033[1;32m'   # Verde brillante
@@ -35,7 +33,7 @@ echo -e " ${C}\t\t\t1.${W} Ahorcado"
 echo -e " ${C}\t\t\t2. ${W}Gato"
 echo -e " ${C}\t\t\t3. ${W}Salir${W}"
 
-read -p "          Selecciona una opción [1-3]: " opcion
+read -p "         Selecciona una opción [1-3]: " opcion
 
 case $opcion in
     1)
@@ -46,8 +44,7 @@ case $opcion in
         ;;
     3)
         echo -e "${G}\n\t\t\tS A L I E N D O ${W}"
-        
-	sleep 1.5
+      	sleep 1.5
 	clear
 	;;
     *)
