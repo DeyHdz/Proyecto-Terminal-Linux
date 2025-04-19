@@ -24,11 +24,11 @@ while true; do
 
             ;;
         buscar)
-		echo "Uso: buscar <carpeta> <nombre_archivo>"
-		read -p "Carpeta: " carpeta
-		read -p "Nombre del archivo: " archivo
-    		./Buscar.sh "$carpeta" "$archivo"
-            bash Buscar.sh $args
+		#echo "Uso: buscar <carpeta> <nombre_archivo>"
+		#read -p "Carpeta: " carpeta
+		#read -p "Nombre del archivo: " archivo
+    		./Buscar.sh 
+            #bash Buscar.sh $args
             ;;
         creditos)
             ./Creditos.sh
