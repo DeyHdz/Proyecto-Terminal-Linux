@@ -39,7 +39,7 @@ while true; do
             ./Creditos.sh
             ;;
         jugar)
-            ./juegos.sh
+            ./gato.sh
             ;;
         musica)
             ./Musica.sh
