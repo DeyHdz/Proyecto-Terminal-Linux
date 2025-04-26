@@ -14,7 +14,7 @@
   - `tiempo`: Fecha y hora actual 🕒
   - `buscar`: Búsqueda de archivos 🔍
   - `creditos`: Créditos del proyecto 📝
-  - `jugar`: Juego de gato (tic-tac-toe) 🎮
+  - `jugar`: Juego de gato 🎮
   - `musica`: Reproductor de música 🎵
 - 🔒 **Control de señales**: Protección contra Ctrl+C y Ctrl+Z.
 - 🌈 **Salida personalizada** con mensajes visuales.
