@@ -18,7 +18,7 @@ echo -e "  ${C}infosis${W}    - ¿Curioso sobre tu PC? Descubre sus secretos aqu
 echo -e "  ${C}tiempo${W}      - ¿Perdido en el tiempo? Averigua el día y hora"
 echo -e "  ${C}buscar${W}     - ¿Dónde está ese archivo? Yo te ayudo a encontrarlo"
 echo -e "  ${C}creditos${W}   - Conoce a los genios detrás de esta terminal"
-echo -e "  ${C}jugar${W}      - ¿Aburrido? ¡Diviértete con nuestros minijuegos!"
+echo -e "  ${C}jugar${W}      - ¿Aburrido? ¡Diviértete con nuestro minijuego!"
 echo -e "  ${C}musica${W}     - ¿Necesitas ritmo? Pon tus canciones favoritas"
 echo -e "  ${C}salir${W}      - ¿Ya te vas? Hasta la próxima aventura..."
 echo -e "${M}===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-===-${W}"
