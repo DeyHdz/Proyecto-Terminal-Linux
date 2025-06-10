@@ -32,15 +32,18 @@ chmod +x terminal.sh
 
 ## 📝 Formato de commits
 Sigue el siguiente estilo:
+
 ```bash
 [OWNER][ADD][MASTER]
 ```
+
 [OWNER]: ¿Quién esta realizando el cambio?
 [ADD]: ¿Dónde se esta agregando?
 [RAMA]: Master, main, o alguba otra.
 Ejemplo:
 ademas de una pequeña descripcion de lo que se hizo,
 [DeyHdz][musica.sh][main] Se agrego menú, para elegir si se desea escuchar musica en aleatorio, seleccionar alguna o salr.
+
 ---
 ## 🐛 ¿Cómo abrir un issue o pull request?
 - Abre un issue describiendo el problema o idea
